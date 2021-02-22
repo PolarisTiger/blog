@@ -2,18 +2,18 @@
 polaris前端面试题
 ## 1.防抖节流
 
-函数防抖(debounce)
-在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
+>函数防抖(debounce)
+>在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
 
-函数节流(throttle)
-规定在一个单位时间内，只能触发一次函数。如果这个单位时间内触发多次函数，只有一次生效。
+>函数节流(throttle)
+>规定在一个单位时间内，只能触发一次函数。如果这个单位时间内触发多次函数，只有一次生效。
 
 [7分钟理解JS的节流、防抖及使用场景](https://juejin.cn/post/6844903669389885453)
 
 ## 2.判断js数据类型
-1.typeof 直接返回数据类型字段，但是无法判断数组、null、对象
-2.instanceof 判断某个实例是不是属于原型
-3.Object.prototype.toString.call()
+>1.typeof 直接返回数据类型字段，但是无法判断数组、null、对象
+>2.instanceof 判断某个实例是不是属于原型
+>3.Object.prototype.toString.call()
 
 [javascript 判断数据类型的几种方法](https://segmentfault.com/a/1190000018160547)
 

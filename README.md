@@ -28,4 +28,8 @@ callback 函数会被自动传入三个参数：数组元素，元素索引，�
 
 [原型与原型链](https://juejin.cn/post/6844903749345886216)
 
-## 5.
+## 5.this指向
+
+[理解JS中this指向的小技巧](https://juejin.cn/post/6844903476066009096)
+[巧妙理解call和apply](https://github.com/TerryBeanX2/Dive-Into-JS/tree/master/call-apply)
+[不得不说的原型与原型链](https://github.com/TerryBeanX2/Dive-Into-JS/tree/master/proto)

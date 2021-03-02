@@ -42,3 +42,14 @@ callback 函数会被自动传入三个参数：数组元素，元素索引，�
 ## 7.flex布局
 
 [30 分钟学会 Flex 布局](https://zhuanlan.zhihu.com/p/25303493)  
+
+## 8.一次完整的http过程
+
+当我们在web浏览器的地址栏中输入：www.baidu.com，具体发生了什么  
+1.对www.baidu.com这个网址进行dns的解析，得到对应的ip地址  
+2.根据这个ip，找到对应的服务器，发起tcp的三次握手  
+3.建立tcp链接后发起http请求  
+4.服务器相应http请求，浏览器得到html代码  
+5.浏览器解析html代码，并请求html中的资源（如js。css。图片等）（先得到html代码，才能去找这些资源）  
+6.浏览器对页面进行渲染呈现给用户  
+7.服务器关闭tcp链接  

@@ -66,4 +66,5 @@ callback 函数会被自动传入三个参数：数组元素，元素索引，�
 
 [React Fiber 原理介绍](https://segmentfault.com/a/1190000018250127)  
 
-## 12.
+## 12.Event Loop
+[一次弄懂event loop](https://zhuanlan.zhihu.com/p/55511602)

@@ -1,5 +1,7 @@
 # 前端学习
 polaris前端面试题
+# 复习大纲
+![image](https://user-gold-cdn.xitu.io/2020/4/11/1716702e3ebbac73?imageslim)
 ## 1.防抖节流
 
 >函数防抖(debounce)  

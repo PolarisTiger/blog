@@ -21,6 +21,18 @@ Worker 线程一旦新建成功，就会始终运行，不会被主线程上的�
 5.  移动设备能够更完美的展现网页（对css支持较弱的设备）  
 6.  便于团队维护和开发  
 
+# CSS
+
+## 1.盒模型
+>标准盒模型：标准模式下总宽度=width+margin（左右）+padding（左右）border（左右）  
+>怪异盒模型：怪异模式下总宽度=width+margin（左右）（就是说width已经包含了padding和border值）  
+>当设置为box-sizing:content-box时，将采用标准模式解析计算，也是默认模式；当设置为box-sizing:border-box时，将采用怪异模式解析计算；  
+
+## 2.BFC
+BFC(Block formatting context)直译为"块级格式化上下文"。
+>BFC是一个独立的布局环境，其中的元素布局是不受外界的影响，并且在一个BFC中，块盒与行盒（行盒由一行中所有的内联元素所组成）都会垂直的沿着其父元素的边框排列。
+
+
 # JavaScript
 
 ## 1.防抖节流

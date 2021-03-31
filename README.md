@@ -24,8 +24,8 @@ Worker 线程一旦新建成功，就会始终运行，不会被主线程上的�
 # CSS
 
 ## 1.盒模型
->标准盒模型：标准模式下总宽度=width+margin（左右）+padding（左右）border（左右）  
->怪异盒模型：怪异模式下总宽度=width+margin（左右）（就是说width已经包含了padding和border值）  
+标准盒模型：标准模式下总宽度=width+margin（左右）+padding（左右）border（左右）  
+怪异盒模型：怪异模式下总宽度=width+margin（左右）（就是说width已经包含了padding和border值）  
 >当设置为box-sizing:content-box时，将采用标准模式解析计算，也是默认模式；当设置为box-sizing:border-box时，将采用怪异模式解析计算；  
 
 ## 2.BFC
@@ -37,8 +37,8 @@ BFC(Block formatting context)直译为"块级格式化上下文"。
 
 ## 1.防抖节流
 
->函数防抖(debounce)  
-在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
+函数防抖(debounce)  
+>在事件被触发n秒后再执行回调，如果在这n秒内又被触发，则重新计时。
 
 >函数节流(throttle)  
 规定在一个单位时间内，只能触发一次函数。如果这个单位时间内触发多次函数，只有一次生效。

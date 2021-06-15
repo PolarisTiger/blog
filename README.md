@@ -42,7 +42,7 @@ BFC(Block formatting context)直译为"块级格式化上下文"。
 
 ## 5.flex布局
 
-[30 分钟学会 Flex 布局](https://zhuanlan.zhihu.com/p/25303493)  
+[Flex 布局](https://zhuanlan.zhihu.com/p/25303493)  
 
 # JavaScript
 
